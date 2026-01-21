@@ -1,0 +1,324 @@
+
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+ 
+ .flex {
+    -webkit-diplay: flex;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .btn {
+    background-color: orangered;
+        border-radius: 100px;
+        border: 1px solid orangered;
+       padding: 10px 23px; 
+ }
+ul li{
+  list-style-type: none;
+//   text-decoration: none;
+ }
+a {
+  text-decoration: none;
+ }
+
+
+//  header section
+ header {
+  width: 100%;
+  height: 80px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+//   align-items: center;
+  justify-content: space-around;
+  padding: 0 20px;
+ }
+ header h1 {
+  font-size: 18px;
+  color: #4A4A4A;
+    font-weight: 700;
+    padding: 40px 0px 0px 40px;
+ }
+    header nav ul {
+    // display: flex;
+    gap: 20px;
+    
+    }
+     header nav ul a{
+    color: #4A4A4A;
+    font-weight: 500;
+    font-size: 16px;
+     }
+    
+     header div {
+        padding-left: 10px;
+     }
+     header div button span{
+        padding-left: 10px;
+         color: #fff;
+        font-weight: 400;
+        font-size: 13px;
+     }
+     header div img {
+        display: inline-block;
+        margin-left: 5px;
+        gap: 10px;
+     }
+
+     img.top {
+      margin-bottom: 20px;
+     }
+    //  main
+     main {
+      margin: 50px auto;
+     }
+
+     section.find {
+      width: 80%;
+      margin: auto;
+      padding: 20px;
+     }
+     section.find *{
+      margin: 5px 8px;
+      padding-block: 12px;
+     }
+     section.find h1 {
+      font-family: [didot];
+      font-size: 70px;
+      font-weight: 700px;
+      line-height: 75px;
+     }
+     section.find p, section.find input label {
+      font-size: 13px;
+      font-weight: 400px;
+      line-height: 20px;
+     }
+      
+     section.interest {
+      width: 80%;
+      margin: auto;
+
+     }
+
+    div.nature {
+      margin:auto; 
+      display: grid;  
+      // grid-row: ;
+      grid-template-columns: repeat(3, 370px);
+      grid-template-rows: repeat(4, 260px);
+      align-items: center;
+      padding: 10px;
+      gap: 10px;
+      
+    }
+    div.nature div p {
+      text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 700px;
+    }
+    div#raft {
+      // background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
+      grid-row: 1;
+      grid-column: 1/ span 2;
+      position: relative;
+       background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+    } 
+    div.hero {
+       position: relative;
+       background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+    }
+    .hero span img {}
+    div.visit {
+      grid-row: 3;
+      grid-column: 2/ span 2;
+    }
+    div.camp {
+      grid-row: 4;
+      grid-column:  1/ span 2;
+    }
+button.set {
+    // background-color: orangered;
+    border-radius: 3px;
+    border: 1px solid orangered;
+    padding-inline: 50px;
+    color: #fff;
+    margin: 20px;
+}
+
+// testimonial
+section#about-us {
+  background-color: #F8F8F8;
+}
+div#testimonial {
+  width: 80%;
+  margin: auto;
+  // margin-block: 80px ;
+  padding:70px 50px;
+} 
+ 
+#testimonial div:first-child p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #9B9B9B;
+  padding-bottom: 20px;
+}
+
+#testimonial h2 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+#testimonial div:first-child span {
+  color: #FF5200;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px
+}
+img.quote {
+  margin-top: 20px;
+  background-color: #FFFFFF;
+  // border: 1px solid #ebe8e8;
+  padding: 20px;
+  // width: 17px;
+  // height: 9px;
+}
+img#slant {
+  // width: 48px;
+  // height: 40px;
+}
+.testimonial {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+.testimonial article {
+  background-color: #FFFFFF;
+  border: 2px solid #ebe8e8;
+  padding: 30px;
+  margin: 5px;
+}
+.testimonial article *{
+  padding: 10px;
+}
+.testimonial article#staff {
+  // padding: 0px 80px;
+  // width: 100%;
+  // height: 100%;
+}
+.testimonial article span {
+  justify-content:flex-start;
+  padding: 0px;
+  // align-content: start;
+}
+.testimonial article#staff span {
+  margin-top: 60px;
+}
+
+
+
+
+
+// footer
+
+footer div.foot {
+  background-color: #FFFFFF;
+  width: 80%;
+  margin: auto;
+}
+section.help {
+  display: grid;
+  grid-template-columns:repeat(5, 275px);
+  padding: 50px 0px;
+}
+section.help *{
+  padding: 5px;
+}
+section.help h3 {
+  font-size: 13px;
+  font-weight: 700px;
+  padding-bottom: 10px;
+}
+section.help p {
+  font-size: 13px;
+  font-weight: 400px;
+  color: #4A4A4A;
+}
+section.help a {
+  color: rgb(53, 53, 206);
+}
+
+
+section.help input {
+color: #9B9B9B;
+// padding: 10px;
+width: 261px;
+height: 40px;
+display: inline;
+
+// float: right;
+}
+section.help button {
+  border-radius: 1px;
+  width: 94px;
+  height: 40px;
+  color: #FFFFFF;
+  font-size: 13px;
+  font-weight: 700px;
+  // float: right;
+}
+div.cards {
+  border-block: 2px solid #E4E4E4;
+  padding: 10px;
+  background-color: #FFFFFF;
+  justify-content: space-between;
+}
+div.cards h3 {
+  color: #30797C;
+  font-size: 24px;
+  font-weight: 700px;
+}
+div.cards nav a{
+  margin: 30px;
+}
+
+span#kes, span#usa{
+  background-color: #FFFFFF;
+border: 1px solid #E4E4E4;
+display: flex;
+align-items: center;
+justify-content: space-between;
+height: 40px;
+margin-right: 10px;
+padding: 0px 8px;
+}
+span#usa {
+  
+width: 241px;
+margin-left: 20px;
+}
+span#kes {
+   width: 115px;
+}
+footer div #copy {
+  display: flex;
+  justify-content: space-between;
+  margin-block: 40px;
+}
