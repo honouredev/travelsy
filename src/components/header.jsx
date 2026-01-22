@@ -9,10 +9,10 @@ const Header = () => {
       <h1>Travelsy</h1>
       <nav className="">
         <ul className="flex">
-          <li><a href="#">Camping Locations</a></li>
-          <li><a href="#">Activities</a></li>
-          <li><a href="#">Equipments</a></li>
-          <li><a href="#">Blogs</a></li>
+          <li><a href="#camping">Camping Locations</a></li>
+          <li><a href="#activities">Activities</a></li>
+          <li><a href="#equipments">Equipments</a></li>
+          <li><a href="#blogs">Blogs</a></li>
         </ul>
       </nav>
       <div className='top-icon'>
