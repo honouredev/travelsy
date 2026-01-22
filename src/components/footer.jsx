@@ -19,7 +19,7 @@ const Footer = () => {
           <h3>Need Travelsy Help?</h3>
           <p>Got Questions? Call us 24/7!</p>
           <p>Call Us: +254 716909 815</p>
-          <p>Email Us: <a>info@travelsy.com </a></p>
+          <p>Email Us: <a href="mailto:info@travelsy.com">info@travelsy.com </a></p>
         </div>
         <div>
           <h3>Company</h3>
@@ -70,11 +70,11 @@ const Footer = () => {
         <div className="flex cards">
           <h3>Travelsy</h3>
           <nav className="flex">
-            <a href=""><img src={icon1} alt="mapesa" width={"50px"} height={"25px"} /> </a>
-            <a href=""><img src={icon3} alt="discover" width={"76px"} height={"16px"} /> </a>
-            <a href=""><img src={icon2} alt="visa" /> </a>
-            <a href=""><img src={icon4} alt="paypal" /> </a>
-            <a href=""><img src={icon5} alt="mastercard" /> </a>
+            <a href="#mapesa"><img src={icon1} alt="mapesa" width={"50px"} height={"25px"} /> </a>
+            <a href="#discover"><img src={icon3} alt="discover" width={"76px"} height={"16px"} /> </a>
+            <a href="#visa"><img src={icon2} alt="visa" /> </a>
+            <a href="#paypal"><img src={icon4} alt="paypal" /> </a>
+            <a href="#mastercard"><img src={icon5} alt="mastercard" /> </a>
 
 
          <span id="usa">

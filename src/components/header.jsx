@@ -17,13 +17,13 @@ const Header = () => {
       </nav>
       <div className='top-icon'>
         <button className="btn"> 
-            <img src={shape} alt="image" width={"13px"} height={"14px"}/>
+            <img src={shape} alt="" width={"13px"} height={"14px"}/>
           <span>Reservations</span>
         </button>
         <img src={search} alt="search icon" width={"19px"} height={"19px"} className="search"/>
-       <img src={oval} alt="image" width={"40px"} height={"40px"}  />
-        <img  src={color} alt="oval color" width={"10px"} height={"10px"} className='top'/>
-        <img src={arrow} alt="down arrow" width={"11px"} height={"6px"}  className='top'/>
+       <img src={oval} alt="profile" width={"40px"} height={"40px"}  />
+        <img  src={color} alt="" width={"10px"} height={"10px"} className='top'/>
+        <img src={arrow} alt="menu" width={"11px"} height={"6px"}  className='top'/>
       </div>
     </header>
   );

@@ -13,9 +13,9 @@ const Testimonial = () => {
         <div>
             <p>TESTIMONIALS</p>
         <h2>What <br /> customers <br /> <span>say about us.</span> </h2>
-        <img className='quote' src={right} alt="quote icon"  width={""} style={{color:"#4A4A4A"}}/>
-        <img className='quote' id='slant' src={slant} alt="customer image" style={{color:'#D8D8D8'}} />
-        <img className='quote' src={left} alt="quote icon" style={{color:"#9B9B9B"}} />
+        <img className='quote' src={right} alt=""  width={""} style={{color:"#4A4A4A"}}/>
+        <img className='quote' id='slant' src={slant} alt="" style={{color:'#D8D8D8'}} />
+        <img className='quote' src={left} alt="" style={{color:"#9B9B9B"}} />
         </div>
     
     <div className=" testimonial">

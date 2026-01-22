@@ -7,7 +7,6 @@ import coffee from '../../Assets/images/Rectangle Copy 6.png';
 import visit from '../../Assets/images/Rectangle Copy 5.png';
 import camping from '../../Assets/images/Rectangle Copy 11.png';
 import tour from '../../Assets/images/Group 4.png';
-import mark from '../../Assets/images/Path Copy 2.png';
 
 const Interest = () => {
     return (
